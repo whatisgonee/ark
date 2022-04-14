@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant+Garamond:wght@300&family=Dela+Gothic+One&display=swap');
+
+
+
+body {
+	background-color: white;
+	font-family: 'Abril Fatface', serif;
+
+}
+
+.hide {
+	height: 0px;
+	overflow: hidden;
+}
+
+h1 {
+	font-size: 500%;
+	margin: 0;
+}
+
+.canvas {
+	position: relative;
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	height: 100%;
+	text-align: center;
+	border-bottom: solid 1px black;
+}
+
+.circle {
+	height: 50px;
+	width: 50px;
+	background-color: #d04141;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+span {
+	font-size: 200%;
+	text-align: center;
+	line-height: 50px;
+}
+
+.divider {
+	height: 1px;
+	width: 10%;
+	background-color: black;
+}
+
+#misery {
+	background-color:black;
+	height:480px;
+	width:480px;
+	position:absolute;
+	z-index:-1;color:white;
+	line-height:550px;
+	font-size:150%
+}
+
+.square {
+	background-color: black;
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+}
+
+#head {
+	border-bottom: solid 1px black;
+}
