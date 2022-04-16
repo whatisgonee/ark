@@ -71,3 +71,42 @@ span {
 #head {
 	border-bottom: solid 1px black;
 }
+
+.err {
+	display: inline-block;
+	font-size: 100%;
+	color: white;
+	padding: 25px 0px 29px 0px;
+	background-color: #3584e4;
+}
+
+.selection {
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 30px;
+	height: 35px;
+	width: 35px;
+	border-radius: 30px;
+	border-top-right-radius: 0px;
+	background-color: #2d6dbb;
+}
+
+#popup {
+	font-family:'Lato', sans-serif;
+	font-size:55%;
+	box-shadow:-10px 15px 15px grey;
+	border-radius:15px;
+	margin-left: 210px;
+	position:absolute;
+	margin-bottom:400px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+#popup span {
+	line-height: 100%;
+	text-align: left;
+	font-weight: 700;
+	padding: 10px;
+}
