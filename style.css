@@ -110,3 +110,49 @@ span {
 	font-weight: 700;
 	padding: 10px;
 }
+
+#triangle { 
+	position: absolute;
+	margin-top: 220px;
+	width: 500px;
+	z-index: -1;
+}
+
+#triangle>div { 
+	width: 500px;
+	height: 5px;
+	background: #700;
+	box-shadow: 0px 0px 10px red;
+}
+
+#triangle>div:before {
+	content: " ";
+	display: block;
+	width: 447px;
+	height: 5px;
+	background: #700;
+	-webkit-transform: rotate(56deg);
+	-moz-transform: rotate(56deg);
+	-ms-transform: rotate(56deg);
+	transform: rotate(56deg);
+	position: absolute;
+	top: -185px;
+	right: -97px;
+	box-shadow: 0px 0px 10px red;
+}
+
+#triangle>div:after {
+	content: " ";
+	display: block;
+	width: 447px;
+	height: 5px;
+	background: #700;
+	-webkit-transform: rotate(-56deg);
+	-moz-transform: rotate(-56deg);
+	-ms-transform: rotate(-56deg);
+	transform: rotate(-56deg);
+	position: absolute;
+	top: -185px;
+	left: -97px;
+	box-shadow: 0px 0px 10px red;
+}
